@@ -7,12 +7,11 @@
     <owners>basictheprogram</owners>
     <title>EasyLog USB (Install)</title>
     <authors>LASCAR Electronics Ltd</authors>
-    <projectUrl>https://github.com/basictheprogram/chocolatey-EasyLogUSB</projectUrl>
+    <projectUrl>https://www.lascarelectronics.com/software/easylog-software/easylog-usb/</projectUrl>
     <iconUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-EasyLogUSB/master/icons/easylogusb.png</iconUrl>
     <copyright>Copyright © 2019</copyright>
     <licenseUrl>https://www.lascarelectronics.com/terms-and-conditions-of-sale-us/</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <projectSourceUrl>https://www.lascarelectronics.com/software/easylog-software/easylog-usb/</projectSourceUrl>
     <docsUrl>https://www.lascarelectronics.com/media/2760/easylog-software-guide.pdf</docsUrl>
     <mailingListUrl>https://www.lascarelectronics.com/support/?tag=1289</mailingListUrl>
     <tags>EasyLog USB Free</tags>
@@ -25,7 +24,7 @@
     <dependencies>
         <!-- .NET Framework 3.5 -->
         <dependency id="dotnet3.5" />
-        
+
         <!-- AutoIT for device driver installation -->
         <dependency id="autoit" version="3.3" />
     </dependencies>
