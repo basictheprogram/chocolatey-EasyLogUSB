@@ -5,7 +5,7 @@
     <version>7.6.0</version>
     <packageSourceUrl>https://github.com/basictheprogram/chocolatey-EasyLogUSB</packageSourceUrl>
     <owners>basictheprogram</owners>
-    <title>EasyLog USB (Install)</title>
+    <title>EasyLog USB</title>
     <authors>LASCAR Electronics Ltd</authors>
     <projectUrl>https://www.lascarelectronics.com/software/easylog-software/easylog-usb/</projectUrl>
     <iconUrl>https://basictheprogram.github.io/chocolatey-EasyLogUSB//icons/easylogusb.png</iconUrl>
@@ -21,6 +21,7 @@
       Using a wizard format to guide the user through setup of the data logger and subsequent download of collected data, 
       the software puts the 'easy' into EasyLog. 
     </description>
+    <releaseNotes>https://www.lascarelectronics.com/media/2760/easylog-software-guide.pdf</releaseNotes>
     <dependencies>
         <!-- .NET Framework 3.5 -->
         <dependency id="dotnet3.5" version="3.5" />
