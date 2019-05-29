@@ -23,8 +23,7 @@
     </description>
     <dependencies>
         <!-- .NET Framework 3.5 -->
-        <dependency id="dotnet3.5" />
-
+        <dependency id="dotnet3.5" version="3.5 />
         <!-- AutoIT for device driver installation -->
         <dependency id="autoit" version="3.3" />
     </dependencies>
