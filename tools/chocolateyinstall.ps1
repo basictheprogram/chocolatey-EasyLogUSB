@@ -1,4 +1,4 @@
-﻿$ErrorActionPreference = 'Stop'; # stop on all errors
+﻿$ErrorActionPreference = 'Stop';
 
 $packageName = 'EasyLogUSB'
 $toolsDir    = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
@@ -8,7 +8,7 @@ $workSpace   = Join-Path $env:TEMP "$packageName.$env:chocolateyPackageVersion"
 
 $webFileArgs = @{
   packageName         = $packageName
-  FileFullPath        = Join-Path $WorkSpace "$packageName+Installer.exe"
+  fileFullPath        = Join-Path $WorkSpace "$packageName+Installer.exe"
   url                 = $url
   checksum            = $checkSum
   checksumType        = 'sha256'
