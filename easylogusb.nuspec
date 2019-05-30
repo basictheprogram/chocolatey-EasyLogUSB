@@ -8,7 +8,7 @@
     <title>EasyLog USB</title>
     <authors>LASCAR Electronics Ltd</authors>
     <projectUrl>https://www.lascarelectronics.com/software/easylog-software/easylog-usb/</projectUrl>
-    <iconUrl>https://basictheprogram.github.io/chocolatey-EasyLogUSB//icons/easylogusb.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/basictheprogram/chocolatey-EasyLogUSB/icons/easylogusb.png</iconUrl>
     <copyright>Copyright © 2019</copyright>
     <licenseUrl>https://www.lascarelectronics.com/terms-and-conditions-of-sale-us/</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
