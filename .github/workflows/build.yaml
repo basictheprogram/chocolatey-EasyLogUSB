@@ -27,7 +27,7 @@ jobs:
         name: Install
         run: |
           choco install -dv --source=".;https://community.chocolatey.org/api/v2/" easylogusb
-      # -
-      #   name: Push
-      #   run: |
-      #     choco push --verbose --api-key=${{ secrets.CHOCOLATE_API_KEY }}
+      -
+        name: Push
+        run: |
+          choco push --verbose --api-key=${{ secrets.CHOCOLATE_API_KEY }}
