@@ -1,15 +1,17 @@
-name: Build
+name: Chocolatey Package
 
 # https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners
 #
 on:
-  workflow_call:
-  workflow_dispatch:
   push:
-    branches: [main]
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+  workflow_dispatch:
 
 jobs:
-  BuildChocolateyPackage:
+  build:
     runs-on: windows-latest
     name: Build Docker Image
     steps:
