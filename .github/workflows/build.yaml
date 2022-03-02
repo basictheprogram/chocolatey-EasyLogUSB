@@ -1,0 +1,23 @@
+name: Build
+
+# https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners
+#
+on:
+  workflow_call:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  BuildChocolateyPackage:
+    runs-on: windows-latest
+    name: Build Docker Image
+    steps:
+      -
+        name: Checkout
+        uses: actions/checkout@v2
+      -
+        name: Chocolatey help
+        uses: crazy-max/ghaction-chocolatey@v1
+        with:
+          args: -h
