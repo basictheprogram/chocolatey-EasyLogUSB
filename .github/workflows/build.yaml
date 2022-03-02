@@ -24,7 +24,10 @@ jobs:
         with:
           args: pack
       -
-        name: Push
-        uses: crazy-max/ghaction-chocolatey@v1
-        with:
-          args: push
+        name: Install
+        run: |
+          choco install -dv -s . easylogusb
+      # -
+      #   name: Push
+      #   run: |
+      #     choco push --verbose --api-key=${{ secrets.CHOCOLATE_API_KEY }}
