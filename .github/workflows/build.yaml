@@ -24,10 +24,14 @@ jobs:
         with:
           args: pack
       -
+        name: Set key
+        run: |
+          choco apikey --key ${{ secrets.CHOCO_API_KEY }} --source ${{ secrets.CHOCO_PUSH_URL }}
+      -
         name: Install
         run: |
           choco install -dv --source=".;https://community.chocolatey.org/api/v2/" easylogusb
       -
         name: Push
         run: |
-          choco push --verbose --api-key=${{ secrets.CHOCOLATE_API_KEY }}
+          choco push --api-key ${{ secrets.CHOCO_API_KEY }} --source ${{ secrets.CHOCO_PUSH_URL }}
