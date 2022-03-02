@@ -26,7 +26,7 @@ jobs:
       -
         name: Install
         run: |
-          choco install -dv -s . easylogusb
+          choco install -dv --source=".;https://community.chocolatey.org/api/v2/" easylogusb
       # -
       #   name: Push
       #   run: |
