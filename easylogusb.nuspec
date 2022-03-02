@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>easylogusb</id>
-    <version>7.6.0</version>
+    <version>7.7.0</version>
     <packageSourceUrl>https://github.com/basictheprogram/chocolatey-EasyLogUSB</packageSourceUrl>
     <owners>basictheprogram</owners>
     <title>EasyLog USB</title>
@@ -17,9 +17,9 @@
     <tags>EasyLog USB Free</tags>
     <summary>The core of Lascar's USB data logging solution</summary>
     <description>
-      The core of Lascar's USB data logging solution is the free software supplied with each USB data logger. 
-      Using a wizard format to guide the user through setup of the data logger and subsequent download of collected data, 
-      the software puts the 'easy' into EasyLog. 
+      The core of Lascar's USB data logging solution is the free software supplied with each USB data logger.
+      Using a wizard format to guide the user through setup of the data logger and subsequent download of collected data,
+      the software puts the 'easy' into EasyLog.
     </description>
     <releaseNotes>https://www.lascarelectronics.com/media/2760/easylog-software-guide.pdf</releaseNotes>
     <dependencies>

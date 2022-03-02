@@ -2,8 +2,8 @@
 
 $packageName = 'EasyLogUSB'
 $toolsDir    = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url         = 'https://s3.amazonaws.com/lascar_downloads/EasyLogUSB+Installer.exe' 
-$checkSum    = '134e5dbc3a7489e8b0851c454f9e3330e888752362808cf4fdb5c48d09cf15d0'
+$url         = 'https://s3.amazonaws.com/lascar_downloads/EasyLogUSB+Installer.exe'
+$checkSum    = '99c93812f4999795b7500e309ea753b0774324314e7a4df3afebf5cfc340fc88'
 $workSpace   = Join-Path $env:TEMP "$packageName.$env:chocolateyPackageVersion"
 
 $webFileArgs = @{
